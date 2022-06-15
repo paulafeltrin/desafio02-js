@@ -29,7 +29,7 @@ if((aniversario === "Janeiro") || (aniversario === "Dezembro")){
 //4 - Criar uma condição que exiba uma mensagem no console se seu nome começar com a letra R
 const nome = "Renata"
 
-if (nome.charAt(0) === "R"){
+if (nome.charAt(0) === "R"){ //ou nome[0] === "R"
     console.log(`O nome ${nome} começa com a letra R.`);
 }else{
     console.log(`O nome ${nome} não incia com a letra R.`);
@@ -41,5 +41,5 @@ const sobrenome = "Feltrin";
 if ((sobrenome.length >= 6) || sobrenome.charAt(0) === "E"){
     console.log(`Seu sobrenome ${sobrenome} tem seis ou mais letras OU inicia com a letra E.`);
 }else{
-    console.log(`Seu sobrenome ${sobrenome} tem menos de cinco letras e/ou não incia com a letra E.`);
+    console.log(`Seu sobrenome ${sobrenome} tem menos de cinco letras e não incia com a letra E.`);
 }
